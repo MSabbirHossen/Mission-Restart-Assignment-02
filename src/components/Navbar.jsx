@@ -35,7 +35,12 @@ const Navbar = () => {
               ))}
             </ol>
           </div>
-          <button className="btn bg-[#6d37e5] text-white">+ New Ticket</button>
+          <button
+            className="btn bg-[#6d37e5] text-white"
+            onClick={() => toast("New Ticket in Navbar is under development.")}
+          >
+            + New Ticket
+          </button>
         </div>
       </div>
     </nav>
