@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "Login page not loading",
+    "description": "The login page keeps showing a blank screen after entering credentials.",
+    "customer": "John Smith",
+    "priority": "HIGH",
+    "status": "Open",
+    "createdAt": "2025-10-06"
+  },
+  {
+    "id": 2,
+    "title": "Email notifications not sent",
+    "description": "No email notifications are being sent for new user registrations.",
+    "customer": "Michael Brown",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "createdAt": "2025-10-05"
+  },
+  {
+    "id": 3,
+    "title": "SLOW dashboard performance",
+    "description": "Dashboard takes over 10 seconds to load analytics data.",
+    "customer": "David Wilson",
+    "priority": "HIGH",
+    "status": "Open",
+    "createdAt": "2025-10-04"
+  },
+  {
+    "id": 4,
+    "title": "Unable to reset password",
+    "description": "Password reset link returns a 404 error.",
+    "customer": "James Anderson",
+    "priority": "HIGH",
+    "status": "Open",
+    "createdAt": "2025-10-03"
+  },
+  {
+    "id": 5,
+    "title": "Mobile view layout issue",
+    "description": "The header overlaps the content on iPhone SE devices.",
+    "customer": "Liam Thomas",
+    "priority": "LOW",
+    "status": "Open",
+    "createdAt": "2025-10-02"
+  },
+  {
+    "id": 6,
+    "title": "Payment gateway timeout",
+    "description": "Users report payment failure during checkout.",
+    "customer": "Sarah Johnson",
+    "priority": "LOW",
+    "status": "Open",
+    "createdAt": "2025-10-01"
+  },
+  {
+    "id": 7,
+    "title": "Broken image links on homepage",
+    "description": "Some product images are missing or not displaying properly.",
+    "customer": "Emily Davis",
+    "priority": "LOW",
+    "status": "Open",
+    "createdAt": "2025-09-30"
+  },
+  {
+    "id": 8,
+    "title": "Search functionality not returning results",
+    "description": "Search API call fails with a 500 error.",
+    "customer": "NextVision",
+    "priority": "HIGH",
+    "status": "Open",
+    "createdAt": "2025-09-29"
+  },
+  {
+    "id": 9,
+    "title": "User avatars not saving",
+    "description": "Uploading avatars shows success but doesn’t update in profile.",
+    "customer": "Sophia Taylor",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "createdAt": "2025-09-28"
+  },
+  {
+    "id": 10,
+    "title": "Reports export button not working",
+    "description": "Clicking 'Export CSV' has no action.",
+    "customer": "EduSmart",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "createdAt": "2025-09-27"
+  },
+  {
+    "id": 11,
+    "title": "Dark mode not persisting",
+    "description": "Dark mode resets to light theme after page reload.",
+    "customer": "SkySoft",
+    "priority": "LOW",
+    "status": "Open",
+    "createdAt": "2025-09-26"
+  },
+  {
+    "id": 12,
+    "title": "API rate limit error",
+    "description": "Frequent 429 responses from the analytics API.",
+    "customer": "Olivia Martinez",
+    "priority": "LOW",
+    "status": "Open",
+    "createdAt": "2025-09-25"
+  }
+]
