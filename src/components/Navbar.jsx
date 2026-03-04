@@ -1,6 +1,16 @@
 import React from "react";
+import { toast } from "react-toastify";
 
 const Navbar = () => {
+  const navItems = [
+    { name: "Home", link: "#" },
+    { name: "FAQ", link: "#" },
+    { name: "Changelog", link: "#" },
+    { name: "Blog", link: "#" },
+    { name: "Download", link: "#" },
+    { name: "Contact", link: "#" },
+  ];
+
   return (
     <nav className=" Navbar bg-base-100 shadow-sm py-3">
       <div className="flex justify-between items-center w-11/12 mx-auto">
@@ -10,12 +20,11 @@ const Navbar = () => {
         <div className="flex flex-col md:flex-row justify-around items-center gap-4 font-semibold">
           <div className="hidden md:block">
             <ol className="flex justify-between items-center gap-3">
-              <li className="hover:underline cursor-pointer">Home</li>
-              <li className="hover:underline cursor-pointer">FAQ</li>
-              <li className="hover:underline cursor-pointer">Changelog</li>
-              <li className="hover:underline cursor-pointer">Blog</li>
-              <li className="hover:underline cursor-pointer">Download</li>
-              <li className="hover:underline cursor-pointer">Contact</li>
+              {navItems.map((item, index) => (
+                <li key={index} className="hover:underline cursor-pointer">
+                  <a onClick={() => toast(`${item.name} in Navbar is under development.`)} href={item.link}>{item.name}</a>
+                </li>
+              ))}
             </ol>
           </div>
           <button className="btn bg-[#6d37e5] text-white">+ New Ticket</button>
