@@ -27,8 +27,8 @@ const Card = ({ ticket, ticketStatus, setTicketStatus }) => {
             status == "Open"
               ? "bg-green-400 "
               : status == "In-Progress"
-              ? " bg-yellow-300"
-              : " bg-red-300 "
+                ? " bg-yellow-300"
+                : " bg-red-300 "
           }`}
         >
           <div
@@ -36,8 +36,8 @@ const Card = ({ ticket, ticketStatus, setTicketStatus }) => {
               status == "Open"
                 ? "bg-green-700 "
                 : status == "In-Progress"
-                ? " bg-yellow-600"
-                : " bg-red-700 "
+                  ? " bg-yellow-600"
+                  : " bg-red-700 "
             }`}
           ></div>
           {status}
@@ -54,8 +54,8 @@ const Card = ({ ticket, ticketStatus, setTicketStatus }) => {
               priority == "HIGH"
                 ? "text-red-500"
                 : priority == "MEDIUM"
-                ? "text-yellow-500"
-                : "text-green-500"
+                  ? "text-yellow-500"
+                  : "text-green-500"
             }`}
           >
             {priority}

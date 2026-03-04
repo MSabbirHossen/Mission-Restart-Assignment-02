@@ -11,7 +11,7 @@ const Cards = ({ tickets, ticketStatus, setTicketStatus }) => {
             ticketStatus={ticketStatus}
             setTicketStatus={setTicketStatus}
           />
-        )
+        ),
       )}
     </div>
   );
