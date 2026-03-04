@@ -3,13 +3,19 @@ import { toast } from "react-toastify";
 
 const Navbar = () => {
   const navItems = [
-    { name: "Home", link: "#" },
+    { name: "Home", link: "/" },
     { name: "FAQ", link: "#" },
     { name: "Changelog", link: "#" },
     { name: "Blog", link: "#" },
     { name: "Download", link: "#" },
     { name: "Contact", link: "#" },
   ];
+
+  const handleNavItemClick = (item) => {
+    if (item.link === "#") {
+      toast(`${item.name} in Navbar is under development.`);
+    }
+  };
 
   return (
     <nav className=" Navbar bg-base-100 shadow-sm py-3">
@@ -22,7 +28,9 @@ const Navbar = () => {
             <ol className="flex justify-between items-center gap-3">
               {navItems.map((item, index) => (
                 <li key={index} className="hover:underline cursor-pointer">
-                  <a onClick={() => toast(`${item.name} in Navbar is under development.`)} href={item.link}>{item.name}</a>
+                  <a onClick={() => handleNavItemClick(item)} href={item.link}>
+                    {item.name}
+                  </a>
                 </li>
               ))}
             </ol>
